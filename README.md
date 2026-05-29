@@ -3,7 +3,7 @@
 A modern, premium, and fully responsive website redesign for **She Can Foundation**, built as a portfolio-worthy, startup-level social impact platform. This website is engineered to be emotionally engaging, highly interactive, and visually stunning using high-contrast black, white, and glowing orange branding.
 
 ## 🚀 Live Site Preview
-- **Local Dev Server:** `http://localhost:5174/` (or `http://localhost:5173/`)
+- **URL** `(https://ngo-she-can-foundation.netlify.app/)` 
 
 ---
 
