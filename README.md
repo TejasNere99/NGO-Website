@@ -3,7 +3,7 @@
 A modern, premium, and fully responsive website redesign for **She Can Foundation**, built as a portfolio-worthy, startup-level social impact platform. This website is engineered to be emotionally engaging, highly interactive, and visually stunning using high-contrast black, white, and glowing orange branding.
 
 ## 🚀 Live Site Preview
-- **URL** `(https://ngo-she-can-foundation.netlify.app/)` 
+- **URL** `https://ngo-she-can-foundation.netlify.app/` 
 
 ---
 
@@ -78,51 +78,3 @@ src/
 
 ---
 
-## 💻 Getting Started
-
-### 1. Installation
-Clone the repository and install dependencies:
-```bash
-npm install
-```
-
-### 2. Configure EmailJS (Optional)
-To send actual emails from the volunteer form:
-1. Register on [EmailJS](https://www.emailjs.com/).
-2. Create an Email Service and Template, and copy your keys.
-3. Open `src/config/emailjs.js` and input your keys:
-   ```javascript
-   export const EMAILJS_CONFIG = {
-     SERVICE_ID: 'YOUR_SERVICE_ID',
-     TEMPLATE_ID: 'YOUR_TEMPLATE_ID',
-     PUBLIC_KEY: 'YOUR_PUBLIC_KEY',
-   };
-   ```
-*Note: If these placeholders are left untouched, the website will run in a mock/simulation mode with warning logs to guide you.*
-
-### 3. Local Development
-Start the local server:
-```bash
-npm run dev
-```
-
-### 4. Production Build
-Compile and bundle files for production:
-```bash
-npm run build
-```
-This outputs optimized static HTML/CSS/JS bundles in the `dist/` directory.
-
----
-
-## 🌐 Deploy to Netlify
-
-### Drag & Drop (Easiest)
-1. Generate the build folder: `npm run build`
-2. Go to your [Netlify Dashboard](https://app.netlify.com/).
-3. Drag the **`dist`** folder directly into the deploy upload box on the Netlify **Sites** page.
-
-### CLI Deploy
-1. Install CLI: `npm install -g netlify-cli`
-2. Authenticate: `netlify login`
-3. Launch: `netlify deploy --dir=dist --prod`
